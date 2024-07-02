@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: ./implementacao-front
+      dockerfile: Dockerfile
+    volumes:
+      - ./implementacao-front:/app
+      - /app/node_modules
+    ports:
+      - "5173:5173"  # Mapeie a porta correta usada pelo Vite dentro do contêiner
+    command: npm run dev -- --host 0.0.0.0  # Adicione --host 0.0.0.0 para Vite escutar em todas as interfaces

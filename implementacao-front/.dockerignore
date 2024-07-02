@@ -1,0 +1,8 @@
+node_modules
+dist
+.git
+.gitignore
+*.log
+.DS_Store
+thumbs.db
+__pycache__

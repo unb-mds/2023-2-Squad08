@@ -19,49 +19,49 @@ nav:
       - Mapeamento: "DesignSprint/Mapeamento.md"
       - Requisitos: "DesignSprint/Requisitos.md"
   - Políticas:
-    - Branches: "Políticas /Branches.md"
-    - Código de conduta: "Políticas /Código de conduta.md"
-    - Commits: "Políticas /Commits.md"
-    - Issues: "Políticas /Issues.md"
+    - Branches: "Políticas/Branches.md"
+    - Código de conduta: "Políticas/Código de conduta.md"
+    - Commits: "Políticas/Commits.md"
+    - Issues: "Políticas/Issues.md"
   - Tecnologias:
     - Escolhas Tecnológicas: "Tecnologias/EscolhasTecnologicas.md"
   - Sprints:
     - Sprint 00: 
-      - Planejamento: "Sprints/Sprint 00/Planejamento.md"
-      - Resultados: "Sprints/Sprint 00/Resultados.md"
+      - Planejamento: "Sprints/Sprint00/Planejamento.md"
+      - Resultados: "Sprints/Sprint00/Resultados.md"
     - Sprint 01: 
-      - Planejamento: "Sprints/Sprint 01/Planejamento.md"
-      - Resultados: "Sprints/Sprint 01/Resultados.md"
+      - Planejamento: "Sprints/Sprint01/Planejamento.md"
+      - Resultados: "Sprints/Sprint01/Resultados.md"
     - Sprint 02:
-      - Planejamento: "Sprints/Sprint 02/Planejamento.md"
-      - Resultados: "Sprints/Sprint 02/Resultados.md"
+      - Planejamento: "Sprints/Sprint02/Planejamento.md"
+      - Resultados: "Sprints/Sprint02/Resultados.md"
     - Sprint 03:
-      - Planejamento: "Sprints/Sprint 03/Planejamento.md"
-      - Resultados: "Sprints/Sprint 03/Resultados.md"
+      - Planejamento: "Sprints/Sprint03/Planejamento.md"
+      - Resultados: "Sprints/Sprint03/Resultados.md"
     - Sprint 04:
-      - Planejamento: "Sprints/Sprint 04/Planejamento.md"
-      - Resultados: "Sprints/Sprint 04/Resultados.md"
+      - Planejamento: "Sprints/Sprint04/Planejamento.md"
+      - Resultados: "Sprints/Sprint04/Resultados.md"
     - Sprint 05:
-      - Planejamento: "Sprints/Sprint 05/Planejamento.md"
-      - Resultados: "Sprints/Sprint 05/Resultados.md"
+      - Planejamento: "Sprints/Sprint05/Planejamento.md"
+      - Resultados: "Sprints/Sprint05/Resultados.md"
     - Sprint 06:
-      - Planejamento: "Sprints/Sprint 06/Planejamento.md"
-      - Resultados: "Sprints/Sprint 06/Resultados.md"
+      - Planejamento: "Sprints/Sprint06/Planejamento.md"
+      - Resultados: "Sprints/Sprint06/Resultados.md"
     - Sprint 07:
-      - Planejamento: "Sprints/Sprint 07/Planejamento.md"
-      - Resultados: "Sprints/Sprint 07/Resultados.md"
+      - Planejamento: "Sprints/Sprint07/Planejamento.md"
+      - Resultados: "Sprints/Sprint07/Resultados.md"
     - Sprint 08:
-      - Planejamento: "Sprints/Sprint 08/Planejamento.md"
-      - Resultados: "Sprints/Sprint 08/Resultados.md"
+      - Planejamento: "Sprints/Sprint08/Planejamento.md"
+      - Resultados: "Sprints/Sprint08/Resultados.md"
     - Sprint 09:
-      - Planejamento: "Sprints/Sprint 09/Planejamento.md"
-      - Resultados: "Sprints/Sprint 09/Resultados.md"
+      - Planejamento: "Sprints/Sprint09/Planejamento.md"
+      - Resultados: "Sprints/Sprint09/Resultados.md"
     - Sprint 10:
-      - Planejamento: "Sprints/Sprint 10/Planejamento.md"
-      - Resultados: "Sprints/Sprint 10/Resultados.md"
+      - Planejamento: "Sprints/Sprint10/Planejamento.md"
+      - Resultados: "Sprints/Sprint10/Resultados.md"
     - Sprint 11:
-      - Planejamento: "Sprints/Sprint 11/Planejamento.md"
-      - Resultados: "Sprints/Sprint 11/Resultados.md"
+      - Planejamento: "Sprints/Sprint11/Planejamento.md"
+      - Resultados: "Sprints/Sprint11/Resultados.md"
     
 
 
