@@ -1,10 +1,10 @@
-# Seja bem-vindo!
+# Seja bem-vindo ao DeOlhoRS!
 
 Olá a todos,
-Somos o Squad 8, e temos o prazer de apresentar o nosso projeto desenvolvido como parte da disciplina de Métodos de Desenvolvimento de Software. Nosso objetivo principal é contribuir para a transparência e responsabilidade governamental, coletando diários oficiais municipais de diferentes municípios e analisando informações cruciais sobre nomeações e exonerações de servidores públicos.
+<p style="text-align: justify;">Somos o Squad 8, e temos o prazer de apresentar o nosso projeto desenvolvido como parte da disciplina de Métodos de Desenvolvimento de Software. Nosso objetivo principal é contribuir para a transparência e responsabilidade governamental, coletando diários oficiais municipais de diferentes municípios e analisando informações cruciais sobre nomeações e exonerações de servidores públicos.</p>
 
 ## 💡 Ideia e Incentivo
-A coleta e análise de informações em diários oficiais municipais desempenham um papel crucial na transparência e responsabilidade governamental. Esses documentos contêm informações vitais sobre a nomeação e exoneração de funcionários públicos, contratos públicos, licitações e outras atividades administrativas relevantes. Portanto, é fundamental ter uma ferramenta que possa automatizar esse processo e extrair informações relevantes para análise.
+<p style="text-align: justify;">A coleta e análise de informações em diários oficiais municipais desempenham um papel crucial na transparência e responsabilidade governamental. Esses documentos contêm informações vitais sobre a nomeação e exoneração de funcionários públicos, contratos públicos, licitações e outras atividades administrativas relevantes. Portanto, é fundamental ter uma ferramenta que possa automatizar esse processo e extrair informações relevantes para análise.</p>
 
 ## 🚀 Como executar o projeto
 ### 🛠 Tecnologias e Pré-Requisitos
@@ -15,7 +15,7 @@ Em andamento.
 
 ## 🤝 Como contribuir para o projeto
 
-Este projeto é um trabalho em andamento e está aberto a contribuições. Se você deseja contribuir, siga os padrões de desenvolvimento e abra um pedido de pull com suas alterações.
+<p style="text-align: justify;"> Este projeto é um trabalho em andamento e está aberto a contribuições. Se você deseja contribuir, siga os padrões de desenvolvimento e abra um pedido de pull com suas alterações.</p>
 
 ## 👩‍💻 Desenvolvedores(as) 👨‍💻
 
