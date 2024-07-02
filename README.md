@@ -22,12 +22,27 @@ Vamos começar clonando um repositório do GitHub em um diretório local atravé
 git clone https://github.com/unb-mds/2023-2-Squad08.git
 ```
 
-### 2. 📈 Pré-requisitos
+### 2. 🐳 Execultar Aplicação com Docker 
+Para execultar aplicação com docker, é necessário possuir o docker instalado.
+
+- Docker instalado
+- Docker Compose instalado (Docker Desktop já inclui o Docker Compose)
+
+### 3. 🐳 Subindo a aplicação com Docker:
+Para subir o ambiente, execute os seguintes comandos:
+```
+docker-compose --build
+```
+```
+docker-compose up
+```
+
+### 4. 📈 Pré-requisitos Para Execultar Aplicação sem Docker
 Esses são os nossos pré-requisitos,eles garantem uma base sólida para colaboração, ajudando a evitar erros e facilitando a contribuição:
 - [Node.js](https://nodejs.org/en/download)
 - [Python3](https://www.python.org/downloads/)
 
-### 3. 📚 Instalação das bibliotecas do Python
+### 5. 📚 Instalação das bibliotecas do Python
 Aqui estão as bibliotecas do Python usadas que são conjuntos de recursos pré-desenvolvidos que simplificam o desenvolvimento de aplicativos, economizando tempo e esforço:
 ```
 pip install selenium
@@ -39,21 +54,18 @@ pip install regex
 pip install PyPDF2
 ```
 
-### 4. 📚 Instalação do pacote node_modules:
+### 6. 📚 Instalação do pacote node_modules:
 Node modules são pacotes de código reutilizável no ecossistema JavaScript. Eles são essenciais para o desenvolvimento web do nosso projeto:
 
 ```
 npm install
 ```
 
-### 5. 💻 Criação do servidor local:
+### 7. 💻 Criação do servidor local:
 A criação de um servidor local nos permite testar e desenvolver aplicativos web em um ambiente controlado no próprio dispositivo, acelerando o processo de desenvolvimento:
 ```
 npm run dev
 ```
-
-
-
 
 ## 📃 Documentação do projeto
 Clique aqui para acessar nossa documentação:
