@@ -1,0 +1,26 @@
+.menu {
+    width: 100%;
+    background-color: #8BC34A;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+  
+  .menuItem {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+  }
+  
+  .menuItem:hover {
+    background-color: #7CB342;
+    border-radius: 5px;
+  }
+  

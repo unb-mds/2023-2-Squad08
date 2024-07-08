@@ -23,7 +23,7 @@ RUN pip3 install -r requirements.txt
 COPY . .
 
 # Expor a porta em que a aplicação estará rodando
-EXPOSE 3000
+EXPOSE 5173
 
 # Comando para rodar a aplicação
 CMD ["npm", "run", "dev"]

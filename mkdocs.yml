@@ -20,8 +20,11 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/savioc2/2023.2_DeOlhoRS
 nav:
-  - Comece por aqui :): "index.md"
-  - Backlog: "DesignSprint/Backlog.md"
+  - Introdução: "index.md"
+  - Artefatos:
+      - Backlog: "Artefatos/Backlog.md"
+      - Prototype: "Artefatos/Prototype.md"
+  - Arquitetura e Design do Sistema: "Arquitetura/Arquitetura.md"
   - Gestão do Projeto:
       - Arquitetura: "Gestão do Projeto/Arquitetura.md"
       - Comunicação: "Gestão do Projeto/Comunicação.md"
