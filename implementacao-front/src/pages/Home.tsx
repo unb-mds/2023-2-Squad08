@@ -46,8 +46,7 @@ const Home: React.FC = () => {
       <div className={styles.container}>
         <div className={styles.content}>
           <div className={styles.header}>
-            <h1 className={styles.title}>Dashboard</h1>
-            <h1 className={styles.subTitle}>Rio Grande do Sul</h1>
+            <h1 className={styles.title}><em><b>Dashboard</b></em> Rio Grande do Sul</h1>
           </div>
           <div className={styles.upperDiv}>
             <div className={styles.card}>

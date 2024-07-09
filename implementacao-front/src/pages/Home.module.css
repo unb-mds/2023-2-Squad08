@@ -19,8 +19,8 @@
   }
   
   .header {
-    text-align: center;
-    margin-bottom: 20px;
+    justify-content: space-between;
+    align-items: start;
   }
   
   .upperDiv, .lowerDiv {
@@ -52,12 +52,6 @@
   .title {
     font-size: 24px;
     margin-bottom: 10px;
-  }
-  
-  .subTitle {
-    font-size: 18px;
-    color: #555;
-    margin-bottom: 20px;
   }
   
   .graphTitle {

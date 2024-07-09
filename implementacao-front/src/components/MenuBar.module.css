@@ -5,41 +5,48 @@
 
 .menuBar {
     position: fixed;
+    top: 0;
+    left: 0;
     display: flex;
-    flex-direction: column;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
-    height: 100vh;
-    width: 20%;
-    background-color: #207F16;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(to top, #5A7C32, #7FA653);
     align-items: center;
-    padding-top: 25px;
+    padding: 0 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.logo {
+    display: flex;
+    align-items: center; /* Alinha verticalmente a logo ao centro */
+    justify-content: flex-end;
+    padding-top: 75px;
 }
 
 .links {
-    text-align: center;
     display: flex;
-    flex-direction: column;
-    margin-top: 55px;
-    align-items: center;
+    align-items: center; /* Alinha verticalmente os links ao centro */
+    justify-content: flex-start;
     gap: 40px;
 }
 
 .link {
-    padding: 14px 25px;
+    padding: 10px 15px;
     color: black;
     border-radius: 15px;
-    font-size: 1.4em;
+    font-size: 1.2em;
     font-family: 'Sansation', sans-serif;
 }
 
 .link:link {
-    text-decoration: none; 
+    text-decoration: none;
     font-weight: bold;
 }
+
 .link:visited, .link:hover, .link:active {
     text-decoration: none;
     background-color: #8FD053;
 }
-
-
