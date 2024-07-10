@@ -1,13 +1,12 @@
 .container {
   width: 100%;
-  padding: 20px;
-  box-sizing: border-box;
 }
 
 .content {
-  max-width: 800px;
+  width: 100%;
   margin: 0 auto;
   text-align: center;
+  padding-top: 40px;
 }
 
 h1 {
@@ -33,24 +32,12 @@ h2 {
 
 .teamContainer {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
+  gap: 10px;
   margin-top: 20px;
-}
-
-.profile {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 10px;
-}
-
-.profile img {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  margin-bottom: 10px;
+  margin: 0 auto;
+  width: 50%; 
+  height: 50%;
 }
 
 .repository {
