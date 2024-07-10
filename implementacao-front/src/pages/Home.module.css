@@ -1,72 +1,75 @@
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 80px 20px 20px; /* Espaço para o menu fixo */
-    background-color: #f5f5f5;
-  }
-  
-  .content {
-    width: 100%;
-    max-width: 1200px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  .header {
-    justify-content: space-between;
-    align-items: start;
-  }
-  
+.page {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.header {
+  justify-content: space-between;
+  align-items: start;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100%;
+}
+
+.upperDiv, .lowerDiv {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.card, .chartCard {
+  background: linear-gradient(to top, #DCE7D0, #C3D0B4);
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 2px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.card h2, .chartCard h2 {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.chartCard h2 {
+  margin-bottom: 20px;
+}
+
+.chartContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chartCard {
+  width: calc(40% - 20px);
+}
+
+.title {
+  font-size: 20px;
+  margin-bottom: 1px;
+}
+
+.graphTitle {
+  font-size: 16px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
   .upperDiv, .lowerDiv {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: space-between;
-    margin-bottom: 20px;
+    flex-direction: column;
+    align-items: center;
   }
-  
+
   .card, .chartCard {
-    background: #e8f5e9;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin: 10px;
-    text-align: center;
+    width: 100%;
   }
-  
-  .card {
-    width: calc(33% - 20px);
-  }
-  
-  .chartCard {
-    width: calc(50% - 20px);
-  }
-  
-  .title {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  .graphTitle {
-    font-size: 16px;
-    margin-bottom: 10px;
-  }
-  
-  @media (max-width: 768px) {
-    .upperDiv, .lowerDiv {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .card, .chartCard {
-      width: 100%;
-    }
-  }
-  
+}

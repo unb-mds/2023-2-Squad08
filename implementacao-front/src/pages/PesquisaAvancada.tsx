@@ -1,6 +1,5 @@
 import MenuBar from "../components/MenuBar";
 import styles from "./PesquisaAvancada.module.css";
-import Tabela from "../components/Tabela";
 
 function PesquisaAvancada() {
   return (
@@ -8,10 +7,49 @@ function PesquisaAvancada() {
       <MenuBar />
       <div className={styles.content}>
         <h1 className={styles.titulo}>Pesquisa Avançada</h1>
-        <div className={styles.lowerDiv}>
-          <Tabela />
+        <div className={styles.searchBar}>
+          <input type="text" placeholder="Digite aqui sua pesquisa..." />
+          <button>Pesquisar</button>
         </div>
-        <p>Atenção: Os dados referidos são apenas do ano de 2017.</p>
+        <div>
+          <table className={styles.tabela}>
+            <thead>
+              <tr>
+                <th>Nome</th>
+                <th>Cargo</th>
+                <th>Ação</th>
+                <th>Data</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p className={styles.footer}>Atenção: Os dados referidos são apenas do ano de 2017.</p>
       </div>
     </div>
   );

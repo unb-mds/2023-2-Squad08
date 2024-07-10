@@ -1,3 +1,4 @@
+import React from 'react';
 import MenuBar from "../components/MenuBar";
 import Profile from "../components/Profile";
 import styles from "./About.module.css";
@@ -9,23 +10,20 @@ function About() {
       <MenuBar />
       <section className={styles.content}>
         <h1>Conheça um pouco mais do nosso projeto!</h1>
+        <hr />
         <p>Este projeto é resultado da disciplina de Métodos de Desenvolvimento de Software, ministrada na Universidade de Brasília.</p>
+        <h2>Objetivo:</h2>
         <hr />
         <p>O objetivo principal do projeto é contribuir para a transparência e responsabilidade governamental a partir da coleta de diários oficiais municipais de diferentes municípios do Rio Grande do Sul e analisar informações relacionadas a nomeações e exonerações de servidores públicos.</p>
-        <hr />
         <h2>Equipe de estudantes desenvolvedores:</h2>
+        <hr />
         <div className={styles.teamContainer}>
-          <div className={styles.upperProfiles}>
-            <Profile name='Ana Borges' photo='https://avatars.githubusercontent.com/u/109738757?v=4' />
-            <Profile name='Bianca Patrocínio' photo='https://avatars.githubusercontent.com/u/70040539?v=4' />
-            <Profile name='Bruno Duarte' photo='https://avatars.githubusercontent.com/u/104954891?v=4' />
-            <Profile name='Cecília Quaresma' photo='https://avatars.githubusercontent.com/u/92647006?v=4' />
-          </div>
-          <div className={styles.lowerProfiles}>
-            <Profile name='Lari Vieira' photo='https://avatars.githubusercontent.com/u/116472322?v=4' />
-            <Profile name='Matheus de Mello' photo='https://avatars.githubusercontent.com/u/100366395?v=4' />
-            <Profile name='Vitor Feijó' photo='https://avatars.githubusercontent.com/u/69637300?v=4' />
-          </div>
+          <Profile name='Ana Borges' photo='https://avatars.githubusercontent.com/u/109738757?v=4' />
+          <Profile name='Bianca Patrocínio' photo='https://avatars.githubusercontent.com/u/70040539?v=4' />
+          <Profile name='Bruno Duarte' photo='https://avatars.githubusercontent.com/u/104954891?v=4' />
+          <Profile name='Cecília Quaresma' photo='https://avatars.githubusercontent.com/u/92647006?v=4' />
+          <Profile name='Matheus de Mello' photo='https://avatars.githubusercontent.com/u/100366395?v=4' />
+          <Profile name='Vitor Feijó' photo='https://avatars.githubusercontent.com/u/69637300?v=4' />
         </div>
         <div className={styles.repository}>
           <AiFillGithub size={50} />

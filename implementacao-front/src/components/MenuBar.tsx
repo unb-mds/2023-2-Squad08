@@ -11,7 +11,7 @@ function MenuBar() {
         <a className={styles.link} href="/about">Sobre</a>
       </div>
       <div className={styles.logo}>
-        <img src={logo} className="logo" alt="" width="150" height="125" />
+        <img src={logo} className="logo" alt="" width="100" height="90" />
       </div>
     </div>
   )

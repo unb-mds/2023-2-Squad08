@@ -10,6 +10,7 @@ body {
   background-color: #FFFFFF;
   color: #333;
   padding-top: 60px; /* Espaço para o menu fixo */
+  width: 100%;
 }
 
 /* Global styles */

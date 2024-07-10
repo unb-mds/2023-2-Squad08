@@ -41,12 +41,11 @@ const pie = {
 
 const Home: React.FC = () => {
   return (
-    <div>
+    <div className={styles.page}>
       <MenuBar />
-      <div className={styles.container}>
-        <div className={styles.content}>
           <div className={styles.header}>
             <h1 className={styles.title}><em><b>Dashboard</b></em> Rio Grande do Sul</h1>
+            <hr />
           </div>
           <div className={styles.upperDiv}>
             <div className={styles.card}>
@@ -78,11 +77,9 @@ const Home: React.FC = () => {
             </div>
             <div className={styles.chartCard}>
               <h2 className={styles.graphTitle}>Nomeações e Exonerações ao longo dos anos</h2>
-              <Chart options={column.options} series={column.series} type="bar" width="100%" height={345} />
+              <Chart options={column.options} series={column.series} type="bar" width="100%" height={220} />
             </div>
           </div>
-        </div>
-      </div>
     </div>
   );
 }
