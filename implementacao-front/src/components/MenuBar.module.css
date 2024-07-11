@@ -50,3 +50,92 @@
     text-decoration: none;
     background-color: #8FD053;
 }
+
+/* Responsividade */
+@media (max-width: 480px) {
+    .menuBar {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    .logo {
+        padding-top: 10px;
+        justify-content: center;
+    }
+
+    .links {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .link {
+        font-size: 0.9em;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .menuBar {
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+    }
+
+    .logo {
+        padding-top: 20px;
+        justify-content: center;
+    }
+
+    .links {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .link {
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1023px) {
+    .menuBar {
+        padding: 0 30px;
+    }
+
+    .links {
+        gap: 30px;
+    }
+
+    .link {
+        font-size: 1.1em;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+    .menuBar {
+        padding: 0 40px;
+    }
+
+    .links {
+        gap: 40px;
+    }
+
+    .link {
+        font-size: 1.2em;
+    }
+}
+
+@media (min-width: 1367px) {
+    .menuBar {
+        padding: 0 50px;
+    }
+
+    .links {
+        gap: 50px;
+    }
+
+    .link {
+        font-size: 1.4em;
+    }
+}

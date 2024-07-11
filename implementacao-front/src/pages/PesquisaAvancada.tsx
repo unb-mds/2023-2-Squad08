@@ -6,7 +6,8 @@ function PesquisaAvancada() {
     <div className={styles.container}>
       <MenuBar />
       <div className={styles.content}>
-        <h1 className={styles.titulo}>Pesquisa Avançada</h1>
+        <h1 className={styles.title}>Pesquisa Avançada</h1>
+        <hr />
         <div className={styles.searchBar}>
           <input type="text" placeholder="Digite aqui sua pesquisa..." />
           <button>Pesquisar</button>
@@ -22,6 +23,42 @@ function PesquisaAvancada() {
               </tr>
             </thead>
             <tbody>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
               <tr>
                 <td></td>
                 <td></td>

@@ -5,29 +5,27 @@
 .content {
   width: 100%;
   margin: 0 auto;
-  text-align: center;
-  padding-top: 40px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 h1 {
-  font-size: 24px;
-  margin-bottom: 10px;
+  font-size: 20px;
+
 }
 
 p {
   font-size: 16px;
   line-height: 1.5;
-  margin-bottom: 20px;
 }
 
 hr {
   border: 1px solid black;
-  margin: 20px 0;
 }
 
 h2 {
   font-size: 20px;
-  margin-top: 20px;
 }
 
 .teamContainer {
@@ -36,7 +34,7 @@ h2 {
   gap: 10px;
   margin-top: 20px;
   margin: 0 auto;
-  width: 50%; 
+  width: 50%;
   height: 50%;
 }
 
@@ -56,4 +54,55 @@ h2 {
 
 .repositoryLink:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 480px){
+  .container{
+    padding-top: 275px;
+  }
+}
+
+@media (max-width: 480px) {
+  .teamContainer {
+      flex-direction: column;
+      width: 90%;
+      height: auto;
+      gap: 5px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .teamContainer {
+      flex-direction: column;
+      width: 80%;
+      height: auto;
+      gap: 8px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1023px) {
+  .teamContainer {
+      flex-direction: row;
+      width: 70%;
+      height: 50%;
+      gap: 10px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .teamContainer {
+      flex-direction: row;
+      width: 60%;
+      height: 50%;
+      gap: 10px;
+  }
+}
+
+@media (min-width: 1367px) {
+  .teamContainer {
+      flex-direction: row;
+      width: 50%;
+      height: 50%;
+      gap: 10px;
+  }
 }

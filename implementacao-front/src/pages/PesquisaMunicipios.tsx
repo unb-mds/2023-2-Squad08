@@ -83,9 +83,8 @@ function PesquisaMunicipios(): JSX.Element {
     <div className={styles.container}>
       <MenuBar />
       <div className={styles.content}>
-        <div className={styles.upperDiv}>
-          <div className={styles.left}>
-            <h1 className={styles.subTitle}>Pesquisa por município</h1>
+            <h1 className={styles.Title}>Pesquisa por município</h1>
+            <hr />
             <div className={styles.inputs}>
               <Autocomplete
                 disablePortal
@@ -98,8 +97,6 @@ function PesquisaMunicipios(): JSX.Element {
                 onChange={handleMunicipio}
               />
             </div>
-          </div>
-        </div>
         <div className={styles.lowerDiv}>
           <Chart options={chartData.options} series={chartData.series} type="bar" width={1000} height={400} />
         </div>

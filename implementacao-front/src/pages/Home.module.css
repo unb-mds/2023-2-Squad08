@@ -34,7 +34,7 @@
 }
 
 .card h2, .chartCard h2 {
-  font-size: 15px;
+  font-size: 20px;
   margin-bottom: 20px;
 }
 
@@ -63,7 +63,81 @@
   text-align: center;
 }
 
+/* Responsividade */
+@media (min-width: 1200px) {
+  .header {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .upperDiv, .lowerDiv {
+    justify-content: space-around;
+  }
+
+  .card, .chartCard {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    font-size: 20px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .graphTitle {
+    font-size: 22px;
+  }
+
+  .chartCard h2 {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .header {
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .card, .chartCard {
+    width: calc(25% - 20px);
+    margin: 15px;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .graphTitle {
+    font-size: 20px;
+  }
+
+  .chartCard h2 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .chartCard {
+    width: calc(50% - 10px);
+  }
+}
+
 @media (max-width: 768px) {
+
+  .header {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 275px;
+  }
+  
   .upperDiv, .lowerDiv {
     flex-direction: column;
     align-items: center;
@@ -71,5 +145,32 @@
 
   .card, .chartCard {
     width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .page {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .header {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 275px;
+  }
+
+  .card h2, .chartCard h2 {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .title {
+    font-size: 18px;
+  }
+
+  .graphTitle {
+    font-size: 14px;
+    margin-bottom: 3px;
   }
 }
