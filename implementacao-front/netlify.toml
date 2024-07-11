@@ -1,0 +1,9 @@
+[build]
+  command = "npm install && npm run build"
+  publish = "build"
+
+[context.production.environment]
+  PIPENV_VENV_IN_PROJECT = true
+
+[[plugins]]
+  package = "netlify-plugin-pipenv"
